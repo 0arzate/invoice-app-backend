@@ -1,6 +1,6 @@
 import express, { json } from 'express';
 
-import { PORT } from './constants/index.js';
+import { PORT } from './constants';
 import { homeRouter } from './routes/home/home.routes.js';
 
 const app = express();
