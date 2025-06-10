@@ -1,0 +1,16 @@
+import express, { json } from 'express';
+
+import { PORT } from './constants/index.js';
+import { homeRouter } from './routes/home/home.routes.js';
+
+const app = express();
+
+app.use(json());
+
+app.use(homeRouter)
+
+app.use(express.static('public'))
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+})
