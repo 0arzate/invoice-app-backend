@@ -27,5 +27,13 @@
   "homepage": "https://github.com/ArzCorp/invoice-app-backend#readme",
   "dependencies": {
     "express": "5.1.0"
+  },
+  "devDependencies": {
+    "standard": "17.1.2"
+  },
+    "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }

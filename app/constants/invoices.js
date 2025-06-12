@@ -301,4 +301,4 @@ export const INVOICES = [
       { name: 'Diseño UI', quantity: 1, price: 2200.00, total: 2200.00 }
     ]
   }
-];
+]
