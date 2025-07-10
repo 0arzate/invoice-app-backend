@@ -212,7 +212,7 @@ export const INVOICES = [
     ]
   },
   {
-    status: 'paid',
+    status: 'draft',
     id: 'FA1008',
     date: '2025-08-15',
     paymentTerms: '15',
