@@ -27,6 +27,7 @@
   "homepage": "https://github.com/ArzCorp/invoice-app-backend#readme",
   "dependencies": {
     "bun": "1.2.16",
+    "cors": "2.8.5",
     "express": "5.1.0"
   },
   "devDependencies": {
