@@ -1,5 +1,5 @@
-import { HTTP_STATUS } from '../constants'
-import { INVOICES } from '../constants/invoices'
+import { HTTP_STATUS } from '../constants/index.js'
+import { INVOICES } from '../constants/invoices.js'
 
 export const getInvoiceByIdController = (req, res) => {
   const { id } = req.params

@@ -1,7 +1,7 @@
 import { Router } from 'express'
-import { ROUTES } from '../../constants/routes'
-import { getInvoicesController } from '../../controllers/invoices.controller'
-import { getInvoiceByIdController } from '../../controllers/invoice-by-id.controller'
+import { ROUTES } from '../../constants/routes.js'
+import { getInvoicesController } from '../../controllers/invoices.controller.js'
+import { getInvoiceByIdController } from '../../controllers/invoice-by-id.controller.js'
 
 export const invoicesRouter = Router()
 

@@ -1,7 +1,7 @@
 import express, { json } from 'express'
 import cors from 'cors'
 
-import { PORT } from './constants'
+import { PORT } from './constants/index.js'
 import { homeRouter } from './routes/home/home.routes.js'
 import { invoicesRouter } from './routes/invoices/invoices.routes.js'
 

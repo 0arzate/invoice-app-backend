@@ -1,5 +1,5 @@
 import express, { Router } from 'express'
-import { ROUTES } from '../../constants'
+import { ROUTES } from '../../constants/index.js'
 
 export const homeRouter = Router()
 

@@ -1,4 +1,4 @@
-import { INVOICES } from '../constants/invoices'
+import { INVOICES } from '../constants/invoices.js'
 
 export function getInvoicesController (req, res) {
   const invoicesNormalized = INVOICES.map((invoice) => {
